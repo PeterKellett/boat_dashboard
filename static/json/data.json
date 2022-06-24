@@ -1,0 +1,14 @@
+[
+    {
+    "name": "Tank 1",
+    "capacity": "25",
+    "fuel_rem": 3.2,
+    "distance_rem": ""
+    },
+    {
+    "name": "Tank 2",
+    "capacity": "25",
+    "fuel_rem": 2,
+    "distance_rem": ""
+    }
+]

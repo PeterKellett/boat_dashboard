@@ -1,0 +1,48 @@
+/* body {
+    display: flex;
+    justify-content: center;
+} */
+
+.container-fluid {
+    margin: 5px;
+}
+
+#map {
+    height: 400px;
+}
+
+.tank {
+    background-color: green;
+    margin: 0px 5px 0px 0px;
+    height: 180px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#tank-1 {
+    background-color: red;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#speed {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+    bottom: 12px;
+    left: 246px;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+/* #tank-2 {
+    background-color: red;
+    margin: 5px;
+    height: 200px;
+} */

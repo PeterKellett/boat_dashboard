@@ -13,7 +13,7 @@ console.log("tank_height = ", tank_height)
 //     // MEDICINES = data.medicines;
 // });
 
-fetch('https://8080-peterkellet-boatdashboa-puxxjpeteu3.ws-eu47.gitpod.io/get_data')
+fetch('https://8080-peterkellet-boatdashboa-puxxjpeteu3.ws-eu108.gitpod.io/get_data')
 .then(response => response.json())
 .then(data => {
     console.log(data)
@@ -57,7 +57,10 @@ function initMap() {
       zoom: 12,
       center: home,
     });
-
+    const marker = new google.maps.Marker({
+        position: home,
+        map: map,
+      });
     poly = new google.maps.Polyline({
       strokeColor: "#000000",
       strokeOpacity: 1.0,
@@ -276,10 +279,10 @@ function initMap() {
     });
   }
 
-    const marker = new google.maps.Marker({
-      position: home,
-      map: map,
-    });
+    // const marker = new google.maps.Marker({
+    //   position: home,
+    //   map: map,
+    // });
   }
   // Handles click events on a map, and adds a new point to the Polyline.
 function addLatLng(event) {
